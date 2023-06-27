@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.title{
+    font-size: 72px;
+    background: linear-gradient(to bottom, #514add, #bbb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.description{
+
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.button{
+
+    padding: 20px;
+    cursor: pointer;
+    background-color: #3C388B;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    color: white;
+}
+
+@keyframes move{
+    from {
+        transform : translate(-10px);
+    }
+    to{
+        transform : translate(10px);
+    }
+}
+.item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.img{
+    width: 100%;
+    height: 450px;
+    object-fit: contain;
+    gap: 50px;
+    animation: move 3s infinite ease alternate;
+}
+    
+    @keyframes move {
+        from {
+            transform: translateY(-10px);
+        }
+        to {
+            transform: translateY(10px);
+        }
+    }
