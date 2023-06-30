@@ -29,7 +29,7 @@ const profile = () => {
               </div>
               <div className="flex-1">
                 <div className="text-2xl font-medium text-slate-900 dark:text-slate-200 mb-[3px]">
-                  Albert Flores
+                  Mantaneng Ratale
                 </div>
                 <div className="text-sm font-light text-slate-600 dark:text-slate-400">
                   Front End Developer

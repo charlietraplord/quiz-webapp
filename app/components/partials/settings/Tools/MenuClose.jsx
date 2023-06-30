@@ -1,6 +1,6 @@
 import React from "react";
-import Switch from "@/components/ui/Switch";
-import useSidebar from "@/hooks/useSidebar";
+import Switch from "../../../../components/ui/Switch";
+import useSidebar from "../../../../hooks/useSidebar";
 
 const MenuClose = () => {
   const [collapsed, setMenuCollapsed] = useSidebar();

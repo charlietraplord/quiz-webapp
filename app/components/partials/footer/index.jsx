@@ -1,5 +1,5 @@
 import React from "react";
-import useFooterType from "@/hooks/useFooterType";
+import useFooterType from "../../../hooks/useFooterType";
 
 const Footer = ({ className = "custom-class" }) => {
   const [footerType] = useFooterType();

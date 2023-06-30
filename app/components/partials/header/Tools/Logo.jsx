@@ -1,9 +1,9 @@
 "use client";
 
 import React, { Fragment } from "react";
-import useDarkMode from "@/hooks/useDarkMode";
+import useDarkMode from "../../../../hooks/useDarkMode";
 import Link from "next/link";
-import useWidth from "@/hooks/useWidth";
+import useWidth from "../../../../hooks/useWidth";
 
 const Logo = () => {
   const [isDark] = useDarkMode();

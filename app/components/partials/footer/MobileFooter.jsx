@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../../components/ui/Icon";
 
 const MobileFooter = () => {
   const router = useRouter();

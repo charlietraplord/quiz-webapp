@@ -1,24 +1,24 @@
 "use client";
 import React, { useState } from "react";
 import dynamic from "next/dynamic";
-import Card from "@/components/ui/Card";
-import Textinput from "@/components/ui/Textinput";
-import GroupChart5 from "@/components/partials/widget/chart/group-chart5";
+import Card from "../../../components/ui/Card";
+import Textinput from "../../../components/ui/Textinput";
+import GroupChart5 from "../../../components/partials/widget/chart/group-chart5";
 import Link from "next/link";
 import SimpleBar from "simplebar-react";
-import HistoryChart from "@/components/partials/widget/chart/history-chart";
-import AccountReceivable from "@/components/partials/widget/chart/account-receivable";
-import AccountPayable from "@/components/partials/widget/chart/account-payable";
+import HistoryChart from "../../../components/partials/widget/chart/history-chart";
+import AccountReceivable from "../../../components/partials/widget/chart/account-receivable";
+import AccountPayable from "../../../components/partials/widget/chart/account-payable";
 
 const CardSlider = dynamic(
-  () => import("@/components/partials/widget/CardSlider"),
+  () => import("../../../components/partials/widget/CardSlider"),
   {
     ssr: false,
   }
 );
-import TransactionsTable from "@/components/partials/table/transactions";
-import SelectMonth from "@/components/partials/SelectMonth";
-import HomeBredCurbs from "@/components/partials/HomeBredCurbs";
+import TransactionsTable from "../../../components/partials/table/transactions";
+import SelectMonth from "../../../components/partials/SelectMonth";
+import HomeBredCurbs from "../../../components/partials/HomeBredCurbs";
 
 const users = [
   {
@@ -64,7 +64,7 @@ const BankingPage = () => {
             <div className="flex-1">
               <h4 className="text-xl font-medium mb-2">
                 <span className="block font-light">Good evening,</span>
-                <span className="block">Mr. Jone Doe</span>
+                <span className="block">Mr. Ratale</span>
               </h4>
               <p className="text-sm dark:text-slate-300">Welcome to Anisa</p>
             </div>

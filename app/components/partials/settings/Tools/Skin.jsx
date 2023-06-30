@@ -1,6 +1,6 @@
 import React from "react";
-import Radio from "@/components/ui/Radio";
-import useSkin from "@/hooks/useSkin";
+import Radio from "../../../../components/ui/Radio";
+import useSkin from "../../../../hooks/useSkin";
 
 const Skin = () => {
   const [skin, setSkin] = useSkin("default");

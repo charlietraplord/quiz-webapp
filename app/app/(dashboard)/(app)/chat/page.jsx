@@ -2,20 +2,20 @@
 
 import React, { useEffect } from "react";
 import SimpleBar from "simplebar-react";
-import useWidth from "@/hooks/useWidth";
+import useWidth from "../../../../hooks/useWidth";
 import { useSelector, useDispatch } from "react-redux";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
-import MyProfile from "@/components/partials/app/chat/MyProfile";
-import Contacts from "@/components/partials/app/chat/Contacts";
-import Chat from "@/components/partials/app/chat/Chat";
-import Blank from "@/components/partials/app/chat/Blank";
-import Info from "@/components/partials/app/chat/Info";
+import Card from "../../../../components/ui/Card";
+import Icon from "../../../../components/ui/Icon";
+import MyProfile from "../../../../components/partials/app/chat/MyProfile";
+import Contacts from "../../../../components/partials/app/chat/Contacts";
+import Chat from "../../../../components/partials/app/chat/Chat";
+import Blank from "../../../../components/partials/app/chat/Blank";
+import Info from "../../../../components/partials/app/chat/Info";
 
 import {
   toggleMobileChatSidebar,
   setContactSearch,
-} from "@/components/partials/app/chat/store";
+} from "../../../../components/partials/app/chat/store";
 const ChatPage = () => {
   const { width, breakpoints } = useWidth();
   const dispatch = useDispatch();

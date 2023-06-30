@@ -19,7 +19,7 @@ const links = [
     {
         id: 3,
         title: "Dashboard",
-        url: "/dashboard/app",
+        url: "/app",
     },
     {
         id: 4,

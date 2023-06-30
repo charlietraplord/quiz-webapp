@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Textinput from "@/components/ui/Textinput";
+import Textinput from "../../../components/ui/Textinput";
 const GlobalFilter = ({ filter, setFilter }) => {
   const [value, setValue] = useState(filter);
   const onChange = (e) => {

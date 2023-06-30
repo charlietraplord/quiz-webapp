@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { handleFooterType } from "@/store/layoutReducer";
+import { handleFooterType } from "../store/layoutReducer";
 
 const useFooterType = () => {
   const dispatch = useDispatch();

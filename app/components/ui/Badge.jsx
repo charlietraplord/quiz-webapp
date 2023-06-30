@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../components/ui/Icon";
 
 const Badge = ({
   className = "bg-danger-500 text-white",

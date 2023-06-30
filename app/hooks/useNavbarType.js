@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { handleNavBarType } from "@/store/layoutReducer";
+import { handleNavBarType } from "../store/layoutReducer";
 
 const useNavbarType = () => {
   const dispatch = useDispatch();

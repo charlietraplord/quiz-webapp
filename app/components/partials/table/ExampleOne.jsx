@@ -1,9 +1,9 @@
 /* eslint-disable react/display-name */
 import React, { useState, useMemo } from "react";
 import { advancedTable } from "../../../constant/table-data";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
-import Dropdown from "@/components/ui/Dropdown";
+import Card from "../../../components/ui/Card";
+import Icon from "../../../components/ui/Icon";
+import Dropdown from "../../../components/ui/Dropdown";
 import { Menu } from "@headlessui/react";
 import {
   useTable,

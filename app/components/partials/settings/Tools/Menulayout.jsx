@@ -1,6 +1,6 @@
 import React from "react";
-import Radio from "@/components/ui/Radio";
-import useMenuLayout from "@/hooks/useMenulayout";
+import Radio from "../../../../components/ui/Radio";
+import useMenuLayout from "../../../../hooks/useMenulayout";
 
 const Menulayout = () => {
   const [menuType, setMenuLayout] = useMenuLayout();

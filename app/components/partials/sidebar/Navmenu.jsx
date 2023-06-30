@@ -2,10 +2,10 @@ import { useRouter, usePathname } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Collapse } from "react-collapse";
-import Icon from "@/components/ui/Icon";
-import { toggleActiveChat } from "@/components/partials/app/chat/store";
+import Icon from "../../../components/ui/Icon";
+import { toggleActiveChat } from "../../../components/partials/app/chat/store";
 import { useDispatch } from "react-redux";
-import useMobileMenu from "@/hooks/useMobileMenu";
+import useMobileMenu from "../../../hooks/useMobileMenu";
 
 const Navmenu = ({ menus }) => {
   const router = useRouter();

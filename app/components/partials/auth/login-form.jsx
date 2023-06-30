@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Textinput from "../../ui/Textinput";
 import { useForm } from "react-hook-form";
-import { yupResolver} from "@hookform/resolvers"
+import { yupResolver } from "@hookform/resolvers/yup"
 import * as yup from "yup";
 import { useRouter } from "next/navigation";
-import Checkbox from "../../components/ui/Checkbox";
+import Checkbox from "../../ui/Checkbox";
 import Link from "next/link";
 import { useSelector, useDispatch } from "react-redux";
 import { handleLogin } from "./store";
@@ -35,7 +35,7 @@ const LoginForm = () => {
     if (user) {
       dispatch(handleLogin(true));
       setTimeout(() => {
-        router.push("/analytics");
+        router.push("/banking");
       }, 1500);
     } else {
       toast.error("Invalid credentials", {

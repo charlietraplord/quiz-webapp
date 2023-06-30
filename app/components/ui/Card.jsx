@@ -1,5 +1,5 @@
 import React from "react";
-import useSkin from "@/hooks/useSkin";
+import useSkin from "../../hooks/useSkin";
 
 const Card = ({
   children,

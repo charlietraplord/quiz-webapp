@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Textinput from "@/components/ui/Textinput";
-import InputGroup from "@/components/ui/InputGroup";
-import Textarea from "@/components/ui/Textarea";
-import Button from "@/components/ui/Button";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
+import Textinput from "../../../components/ui/Textinput";
+import InputGroup from "../../../components/ui/InputGroup";
+import Textarea from "../../../components/ui/Textarea";
+import Button from "../../../components/ui/Button";
+import Card from "../../../components/ui/Card";
+import Icon from "../../../components/ui/Icon";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";

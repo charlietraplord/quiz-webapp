@@ -1,9 +1,9 @@
 import React from "react";
-import Dropdown from "@/components/ui/Dropdown";
-import Icon from "@/components/ui/Icon";
+import Dropdown from "../../../../components/ui/Dropdown";
+import Icon from "../../../../components/ui/Icon";
 import Link from "next/link";
 import { Menu } from "@headlessui/react";
-import { notifications } from "@/constant/data";
+import { notifications } from "../../../../constant/data";
 const notifyLabel = () => {
   return (
     <span className="relative lg:h-[32px] lg:w-[32px] lg:bg-slate-100 text-slate-900 lg:dark:bg-slate-900 dark:text-white cursor-pointer rounded-full text-[20px] flex flex-col items-center justify-center">

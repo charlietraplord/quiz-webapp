@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from "react";
-import { advancedTable } from "@/constant/table-data";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
-import Dropdown from "@/components/ui/Dropdown";
+import { advancedTable } from "../../../constant/table-data";
+import Card from "../../../components/ui/Card";
+import Icon from "../../../components/ui/Icon";
+import Dropdown from "../../../components/ui/Dropdown";
 import { Menu } from "@headlessui/react";
 import {
   useTable,
@@ -11,7 +11,7 @@ import {
   useGlobalFilter,
   usePagination,
 } from "react-table";
-import GlobalFilter from "@/components/partials/table/GlobalFilter";
+import GlobalFilter from "../../../components/partials/table/GlobalFilter";
 
 const COLUMNS = [
   {

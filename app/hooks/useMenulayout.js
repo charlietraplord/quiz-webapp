@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { handleType } from "@/store/layoutReducer";
+import { handleType } from "../store/layoutReducer";
 
 const useMenuLayout = () => {
   const dispatch = useDispatch();

@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
-import LoginForm from "../../components/partials/auth/login-form";
-import Social from "../../components/partials/auth/social";
-import useDarkMode from "../../hooks/useDarkMode";
+import LoginForm    from "../../components/partials/auth/login-form";
+import Social from "../../components/partials/auth/social.jsx";
+import useDarkMode from "../../hooks/useDarkMode.js";
+import Hero from "@/public/1.png"
 
 // image import
 
@@ -34,7 +35,7 @@ const Login = () => {
             </div>
             <div className="absolute left-0 2xl:bottom-[-160px] bottom-[-130px] h-full w-full z-[-1]">
               <img
-                src="/assets/images/auth/ils1.svg"
+                src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
                 className="h-full w-full object-contain"
               />

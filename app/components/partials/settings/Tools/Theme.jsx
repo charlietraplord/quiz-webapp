@@ -1,6 +1,6 @@
 import React from "react";
-import Radio from "@/components/ui/Radio";
-import useDarkmode from "@/hooks/useDarkMode";
+import Radio from "../../../../components/ui/Radio";
+import useDarkmode from "../../../../hooks/useDarkMode";
 
 const Theme = () => {
   const [isDark, setDarkMode] = useDarkmode();

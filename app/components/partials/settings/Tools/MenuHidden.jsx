@@ -1,6 +1,6 @@
 import React from "react";
-import Switch from "@/components/ui/Switch";
-import useMenuHidden from "@/hooks/useMenuHidden";
+import Switch from "../../../../components/ui/Switch";
+import useMenuHidden from "../../../../hooks/useMenuHidden";
 
 const MenuHidden = () => {
   const [menuHidden, setMenuHidden] = useMenuHidden();

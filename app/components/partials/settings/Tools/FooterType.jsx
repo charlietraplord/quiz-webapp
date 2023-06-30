@@ -1,6 +1,6 @@
 import React from "react";
-import Radio from "@/components/ui/Radio";
-import useFooterType from "@/hooks/useFooterType";
+import Radio from "../../../../components/ui/Radio";
+import useFooterType from "../../../../hooks/useFooterType";
 
 const FooType = () => {
   const [footerType, setFooterType] = useFooterType();

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { topMenu } from "@/constant/data";
-import Icon from "@/components/ui/Icon";
+import { topMenu } from "../../../../constant/data";
+import Icon from "../../../../components/ui/Icon";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 

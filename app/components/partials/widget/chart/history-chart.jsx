@@ -1,8 +1,8 @@
 import React from "react";
 import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
-import { colors } from "@/constant/data";
-import useDarkMode from "@/hooks/useDarkMode";
+import { colors } from "../../../../constant/data";
+import useDarkMode from "../../../../hooks/useDarkMode";
 
 const HistoryChart = ({ height = 360 }) => {
   const [isDark] = useDarkMode();

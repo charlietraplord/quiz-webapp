@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import useWidth from "@/hooks/useWidth";
+import useWidth from "../../../../hooks/useWidth";
 import { toggleMobileChatSidebar } from "./store";
 
 const Blank = () => {

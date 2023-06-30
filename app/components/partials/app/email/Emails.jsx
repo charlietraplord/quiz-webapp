@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../../../components/ui/Icon";
 import { useDispatch, useSelector } from "react-redux";
-import Checkbox from "@/components/ui/Checkbox";
+import Checkbox from "../../../../components/ui/Checkbox";
 import {
   setCheck,
   setFaveCheck,

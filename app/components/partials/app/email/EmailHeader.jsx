@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Icon from "@/components/ui/Icon";
-import Dropdown from "@/components/ui/Dropdown";
-import Checkbox from "@/components/ui/Checkbox";
+import Icon from "../../../../components/ui/Icon";
+import Dropdown from "../../../../components/ui/Dropdown";
+import Checkbox from "../../../../components/ui/Checkbox";
 import { Menu } from "@headlessui/react";
-import useWidth from "@/hooks/useWidth";
+import useWidth from "../../../../hooks/useWidth";
 import { toggleMobileEmailSidebar, setAllCheck } from "./store";
 import { useDispatch, useSelector } from "react-redux";
 const EmailHeader = ({ onChange, checkboxChange, emails }) => {

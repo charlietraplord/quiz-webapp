@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Switch from "@/components/ui/Switch";
-import useSemiDark from "@/hooks/useSemiDark";
+import Switch from "../../../../components/ui/Switch";
+import useSemiDark from "../../../../hooks/useSemiDark";
 
 const Semidark = () => {
   const [isSemiDark, setSemiDark] = useSemiDark();

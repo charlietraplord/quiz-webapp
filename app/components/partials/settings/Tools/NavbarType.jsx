@@ -1,6 +1,6 @@
 import React from "react";
-import Radio from "@/components/ui/Radio";
-import useNavbarType from "@/hooks/useNavbarType";
+import Radio from "../../../../components/ui/Radio";
+import useNavbarType from "../../../../hooks/useNavbarType";
 
 const NavType = () => {
   const [navbarType, setNavbarType] = useNavbarType();

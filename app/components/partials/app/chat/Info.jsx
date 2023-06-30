@@ -1,7 +1,7 @@
 import React from "react";
 import SimpleBar from "simplebar-react";
 import { useSelector } from "react-redux";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../../../components/ui/Icon";
 
 const socials = [
   {

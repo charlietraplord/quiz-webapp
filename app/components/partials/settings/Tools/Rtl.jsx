@@ -1,6 +1,6 @@
 import React from "react";
-import Switch from "@/components/ui/Switch";
-import useRtl from "@/hooks/useRtl";
+import Switch from "../../../../components/ui/Switch";
+import useRtl from "../../../../hooks/useRtl";
 
 const RtlSwicth = () => {
   const [isRtl, setRtl] = useRtl();

@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../../components/ui/Icon";
 import { useSelector, useDispatch } from "react-redux";
 import { Transition } from "@headlessui/react";
-import { handleCustomizer } from "@/store/layoutReducer";
+import { handleCustomizer } from "../../../store/layoutReducer";
 import SimpleBar from "simplebar-react";
 import Semidark from "./Tools/Semidark";
 import RtlSwicth from "./Tools/Rtl";
@@ -14,7 +14,7 @@ import MenuClose from "./Tools/MenuClose";
 import MenuHidden from "./Tools/MenuHidden";
 import NavbarType from "./Tools/NavbarType";
 import FooType from "./Tools/FooterType";
-import useWidth from "@/hooks/useWidth";
+import useWidth from "../../../hooks/useWidth";
 
 const Setings = () => {
   const isOpen = useSelector((state) => state.layout.customizer);

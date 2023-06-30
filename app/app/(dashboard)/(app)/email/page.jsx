@@ -2,9 +2,9 @@
 
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import { topFilterLists, bottomFilterLists } from "@/constant/data";
-import Card from "@/components/ui/Card";
-import Button from "@/components/ui/Button";
+import { topFilterLists, bottomFilterLists } from "../../../../constant/data";
+import Card from "../../../../components/ui/Card";
+import Button from "../../../../components/ui/Button";
 import SimpleBar from "simplebar-react";
 import { useSelector, useDispatch } from "react-redux";
 import {
@@ -12,45 +12,45 @@ import {
   toggleEmailModal,
   setFilter,
   setSearch,
-} from "@/components/partials/app/email/store";
+} from "../../../../components/partials/app/email/store";
 import { ToastContainer } from "react-toastify";
-import Badge from "@/components/ui/Badge";
-import useWidth from "@/hooks/useWidth";
+import Badge from "../../../../components/ui/Badge";
+import useWidth from "../../../../hooks/useWidth";
 const ComposeEmail = dynamic(
-  () => import("@/components/partials/app/email/ComposeEmail"),
+  () => import("../../../../components/partials/app/email/ComposeEmail"),
   {
     ssr: false,
   }
 );
-const Emails = dynamic(() => import("@/components/partials/app/email/Emails"), {
+const Emails = dynamic(() => import("../../../../components/partials/app/email/Emails"), {
   ssr: false,
 });
-const ListLoading = dynamic(() => import("@/components/skeleton/ListLoading"), {
+const ListLoading = dynamic(() => import("../../../../components/skeleton/ListLoading"), {
   ssr: false,
 });
 
 const Topfilter = dynamic(
-  () => import("@/components/partials/app/email/Topfilter"),
+  () => import("../../../../components/partials/app/email/Topfilter"),
   {
     ssr: false,
   }
 );
 
 const BottomFilter = dynamic(
-  () => import("@/components/partials/app/email/BottomFilter"),
+  () => import("../../../../components/partials/app/email/BottomFilter"),
   {
     ssr: false,
   }
 );
 
 const EmailHeader = dynamic(
-  () => import("@/components/partials/app/email/EmailHeader"),
+  () => import("../../../../components/partials/app/email/EmailHeader"),
   {
     ssr: false,
   }
 );
 const EmailDetails = dynamic(
-  () => import("@/components/partials/app/email/EmailDetails"),
+  () => import("../../../../components/partials/app/email/EmailDetails"),
   {
     ssr: false,
   }

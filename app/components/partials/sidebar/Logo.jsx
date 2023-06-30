@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
-import Icon from "@/components/ui/Icon";
-import useDarkMode from "@/hooks/useDarkMode";
-import useSidebar from "@/hooks/useSidebar";
-import useSemiDark from "@/hooks/useSemiDark";
-import useSkin from "@/hooks/useSkin";
+import Icon from "../../../components/ui/Icon";
+import useDarkMode from "../../../hooks/useDarkMode";
+import useSidebar from "../../../hooks/useSidebar";
+import useSemiDark from "../../../hooks/useSemiDark";
+import useSkin from "../../../hooks/useSkin";
 
 const SidebarLogo = ({ menuHover }) => {
   const [isDark] = useDarkMode();

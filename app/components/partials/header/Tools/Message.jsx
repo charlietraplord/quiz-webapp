@@ -1,9 +1,9 @@
 import React from "react";
-import Dropdown from "@/components/ui/Dropdown";
-import Icon from "@/components/ui/Icon";
+import Dropdown from "../../../../components/ui/Dropdown";
+import Icon from "../../../../components/ui/Icon";
 import Link from "next/link";
 import { Menu } from "@headlessui/react";
-import { message } from "@/constant/data";
+import { message } from "../../../../constant/data";
 
 const messagelabel = () => {
   return (

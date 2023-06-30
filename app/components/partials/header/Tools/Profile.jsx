@@ -1,9 +1,9 @@
 import React from "react";
-import Dropdown from "@/components/ui/Dropdown";
-import Icon from "@/components/ui/Icon";
+import Dropdown from "../../../../components/ui/Dropdown";
+import Icon from "../../../../components/ui/Icon";
 import { Menu, Transition } from "@headlessui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { handleLogout } from "@/components/partials/auth/store";
+import { handleLogout } from "../../../../components/partials/auth/store";
 import { useRouter } from "next/navigation";
 
 const ProfileLabel = () => {
@@ -20,7 +20,7 @@ const ProfileLabel = () => {
       </div>
       <div className="flex-none text-slate-600 dark:text-white text-sm font-normal items-center lg:flex hidden overflow-hidden text-ellipsis whitespace-nowrap">
         <span className="overflow-hidden text-ellipsis whitespace-nowrap w-[85px] block">
-          Albert Flores
+          Mantaneng Ratale
         </span>
         <span className="text-base inline-block ltr:ml-[10px] rtl:mr-[10px]">
           <Icon icon="heroicons-outline:chevron-down"></Icon>

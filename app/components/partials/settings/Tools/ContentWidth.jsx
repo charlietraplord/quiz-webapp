@@ -1,6 +1,6 @@
 import React from "react";
-import Radio from "@/components/ui/Radio";
-import useContentWidth from "@/hooks/useContentWidth";
+import Radio from "../../../../components/ui/Radio";
+import useContentWidth from "../../../../hooks/useContentWidth";
 
 const CWidth = () => {
   const [contentWidth, setContentWidth] = useContentWidth();

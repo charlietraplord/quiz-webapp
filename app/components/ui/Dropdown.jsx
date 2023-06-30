@@ -1,7 +1,7 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../components/ui/Icon";
 
 const Dropdown = ({
   label = "Dropdown",

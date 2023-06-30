@@ -1,4 +1,4 @@
-import { handleSemiDarkMode } from "@/store/layoutReducer";
+import { handleSemiDarkMode } from "../store/layoutReducer";
 import { useSelector, useDispatch } from "react-redux";
 
 const useSemiDark = () => {

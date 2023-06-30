@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "@/components/ui/Button";
-import Dropdown from "@/components/ui/Dropdown";
-import Icon from "@/components/ui/Icon";
-import Tooltip from "@/components/ui/Tooltip";
+import Button from "../../../../components/ui/Button";
+import Dropdown from "../../../../components/ui/Dropdown";
+import Icon from "../../../../components/ui/Icon";
+import Tooltip from "../../../../components/ui/Tooltip";
 import { toggleSingleModal } from "./store";
 import { useDispatch, useSelector } from "react-redux";
 
