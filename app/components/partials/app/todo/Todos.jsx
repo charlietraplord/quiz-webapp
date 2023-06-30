@@ -1,7 +1,7 @@
 import React from "react";
-import Icon from "@/components/ui/Icon";
-import Tooltip from "@/components/ui/Tooltip";
-import Checkbox from "@/components/ui/Checkbox";
+import Icon from "../../../../components/ui/Icon";
+import Tooltip from "../../../../components/ui/Tooltip";
+import Checkbox from "../../../../components/ui/Checkbox";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteTodo, editTodo, isCheck, isFaveCheck } from "./store";
 

@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     if (!isAuth) {
-      router.push("/");
+      router.push("/app");
     }
   }, [isAuth]);
   const location = usePathname();

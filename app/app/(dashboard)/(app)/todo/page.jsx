@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
+import Card from "../../../../components/ui/Card";
+import Icon from "../../../../components/ui/Icon";
 
-import Button from "@/components/ui/Button";
+import Button from "../../../../components/ui/Button";
 import SimpleBar from "simplebar-react";
 import { useSelector, useDispatch } from "react-redux";
 import {
@@ -12,17 +12,17 @@ import {
   setFilter,
   setSearch,
   toggleMobileTodoSidebar,
-} from "@/components/partials/app/todo/store";
-import Todos from "@/components/partials/app/todo/Todos";
-import AddTodo from "@/components/partials/app/todo/AddTodo";
+} from "../../../../components/partials/app/todo/store";
+import Todos from "../../../../components/partials/app/todo/Todos";
+import AddTodo from "../../../../components/partials/app/todo/AddTodo";
 import { ToastContainer } from "react-toastify";
-import EditTodoModal from "@/components/partials/app/todo/EditTodo";
-import Topfilter from "@/components/partials/app/todo/Topfilter";
-import BottomFilter from "@/components/partials/app/todo/BottomFilter";
-import ListLoading from "@/components/skeleton/ListLoading";
-import Badge from "@/components/ui/Badge";
-import TodoHeader from "@/components/partials/app/todo/TodoHeader";
-import useWidth from "@/hooks/useWidth";
+import EditTodoModal from "../../../../components/partials/app/todo/EditTodo";
+import Topfilter from "../../../../components/partials/app/todo/Topfilter";
+import BottomFilter from "../../../../components/partials/app/todo/BottomFilter";
+import ListLoading from "../../../../components/skeleton/ListLoading";
+import Badge from "../../../../components/ui/Badge";
+import TodoHeader from "../../../../components/partials/app/todo/TodoHeader";
+import useWidth from "../../../../hooks/useWidth";
 
 const topfilterList = [
   {

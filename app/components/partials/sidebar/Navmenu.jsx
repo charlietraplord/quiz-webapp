@@ -128,18 +128,7 @@ const Navmenu = ({ menus }) => {
             </Collapse>
           </li>
         ))}
-        <li className="single-sidebar-menu">
-          <a
-            href="https://dashcode-react-doc.codeshaper.tech/"
-            target="_blank"
-            className="menu-link"
-          >
-            <span className="menu-icon">
-              <Icon icon="heroicons:document" />
-            </span>
-            <div className="text-box">Documentation</div>
-          </a>
-        </li>
+
       </ul>
     </>
   );

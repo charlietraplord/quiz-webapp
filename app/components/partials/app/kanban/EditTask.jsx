@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Select, { components } from "react-select";
-import Modal from "@/components/ui/Modal";
+import Modal from "../../../../components/ui/Modal";
 import { useSelector, useDispatch } from "react-redux";
 import { updateTask, toggleEditModal } from "./store";
-import Icon from "@/components/ui/Icon";
-import Textarea from "@/components/ui/Textarea";
+import Icon from "../../../../components/ui/Icon";
+import Textarea from "../../../../components/ui/Textarea";
 import Flatpickr from "react-flatpickr";
 import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { toast } from "react-toastify";
-import FormGroup from "@/components/ui/FormGroup";
+import FormGroup from "../../../../components/ui/FormGroup";
 
 const styles = {
   multiValue: (base, state) => {

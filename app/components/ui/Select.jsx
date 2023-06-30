@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../components/ui/Icon";
 const Select = ({
   label,
   placeholder = "Select Option",

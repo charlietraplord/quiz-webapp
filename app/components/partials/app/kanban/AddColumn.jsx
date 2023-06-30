@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-import Modal from "@/components/ui/Modal";
+import Modal from "../../../../components/ui/Modal";
 import { useSelector, useDispatch } from "react-redux";
-import Textinput from "@/components/ui/Textinput";
+import Textinput from "../../../../components/ui/Textinput";
 
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";

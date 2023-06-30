@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Dropdown from "@/components/ui/Dropdown";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
+import Dropdown from "../../../../components/ui/Dropdown";
+import Card from "../../../../components/ui/Card";
+import Icon from "../../../../components/ui/Icon";
 // import menu form headless ui
 import { Menu } from "@headlessui/react";
-import ProgressBar from "@/components/ui/ProgressBar";
+import ProgressBar from "../../../../components/ui/ProgressBar";
 import { deleteTask, toggleEditModal } from "./store";
 import { useDispatch } from "react-redux";
 const Task = ({ task }) => {

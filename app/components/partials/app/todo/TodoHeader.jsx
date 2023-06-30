@@ -1,8 +1,8 @@
 import React from "react";
-import Icon from "@/components/ui/Icon";
-import Dropdown from "@/components/ui/Dropdown";
+import Icon from "../../../../components/ui/Icon";
+import Dropdown from "../../../../components/ui/Dropdown";
 import { Menu } from "@headlessui/react";
-import useWidth from "@/hooks/useWidth";
+import useWidth from "../../../../hooks/useWidth";
 import { toggleMobileTodoSidebar } from "./store";
 import { useDispatch, useSelector } from "react-redux";
 const TodoHeader = ({ onChange }) => {

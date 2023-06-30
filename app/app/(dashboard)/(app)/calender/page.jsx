@@ -9,11 +9,11 @@ import interactionPlugin from "@fullcalendar/interaction";
 import listPlugin from "@fullcalendar/list";
 
 // needed for dayClick
-import Card from "@/components/ui/Card";
-import Button from "@/components/ui/Button";
-import Checkbox from "@/components/ui/Checkbox";
-import EventModal from "@/components/partials/app/calender/EventModal";
-import EditEventModal from "@/components/partials/app/calender/EditEventModal";
+import Card from "../../../../components/ui/Card";
+import Button from "../../../../components/ui/Button";
+import Checkbox from "../../../../components/ui/Checkbox";
+import EventModal from "../../../../components/partials/app/calender/EventModal";
+import EditEventModal from "../../../../components/partials/app/calender/EditEventModal";
 
 const CalenderPage = () => {
   const { calendarEvents, categories } = useSelector((state) => state.calendar);

@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import Button from "@/components/ui/Button";
-import Tooltip from "@/components/ui/Tooltip";
-import Icon from "@/components/ui/Icon";
+import Button from "../../../../components/ui/Button";
+import Tooltip from "../../../../components/ui/Tooltip";
+import Icon from "../../../../components/ui/Icon";
 
 import { useSelector, useDispatch } from "react-redux";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
@@ -12,12 +12,12 @@ import {
   toggleColumnModal,
   deleteColumnBoard,
   toggleTaskModal,
-} from "@/components/partials/app/kanban/store";
-import Task from "@/components/partials/app/kanban/Task";
-import AddColumn from "@/components/partials/app/kanban/AddColumn";
-import AddTaskModal from "@/components/partials/app/kanban/AddTaskModal";
+} from "../../../../components/partials/app/kanban/store";
+import Task from "../../../../components/partials/app/kanban/Task";
+import AddColumn from "../../../../components/partials/app/kanban/AddColumn";
+import AddTaskModal from "../../../../components/partials/app/kanban/AddTaskModal";
 import { ToastContainer } from "react-toastify";
-import EditTaskModal from "@/components/partials/app/kanban/EditTask";
+import EditTaskModal from "../../../../components/partials/app/kanban/EditTask";
 const KanbanPage = () => {
   const { columns, taskModal } = useSelector((state) => state.kanban);
   const dispatch = useDispatch();

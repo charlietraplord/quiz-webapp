@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
-import Modal from "@/components/ui/Modal";
-import Textinput from "@/components/ui/Textinput";
+import Modal from "../../../../components/ui/Modal";
+import Textinput from "../../../../components/ui/Textinput";
 import { useForm, Controller } from "react-hook-form";
-import Select from "@/components/ui/Select";
+import Select from "../../../../components/ui/Select";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useSelector, useDispatch } from "react-redux";
 import { updateEvent, removeEvent } from "./store";
 import Flatpickr from "react-flatpickr";
-import FormGroup from "@/components/ui/FormGroup";
+import FormGroup from "../../../../components/ui/FormGroup";
 
 const FormValidationSchema = yup
   .object({
