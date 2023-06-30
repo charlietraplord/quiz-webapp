@@ -1,8 +1,8 @@
 import React from "react";
 import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
-import useDarkMode from "@/hooks/useDarkMode";
-import useRtl from "@/hooks/useRtl";
+import useDarkMode from "../../../../hooks/useDarkMode";
+import useRtl from "../../../../hooks/useRtl";
 
 const RevenueBarChart = ({ height = 400 }) => {
   const [isDark] = useDarkMode();

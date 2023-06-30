@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../components/ui/Icon";
 import Cleave from "cleave.js/react";
 import "cleave.js/dist/addons/cleave-phone.us";
 

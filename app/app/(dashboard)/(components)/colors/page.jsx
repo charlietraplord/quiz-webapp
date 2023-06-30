@@ -1,5 +1,5 @@
 "use client";
-import Card from "@/components/ui/Card";
+import Card from "../../../../components/ui/Card";
 const slates = [
   {
     name: "slate-50",

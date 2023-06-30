@@ -9,8 +9,8 @@ import {
   Legend,
 } from "chart.js";
 import { Radar } from "react-chartjs-2";
-import { colors, hexToRGB } from "@/constant/data";
-import useDarkMode from "@/hooks/useDarkMode";
+import { colors, hexToRGB } from "../../../../constant/data";
+import useDarkMode from "../../../../hooks/useDarkMode";
 
 ChartJS.register(
   RadialLinearScale,

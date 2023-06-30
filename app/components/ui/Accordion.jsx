@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../components/ui/Icon";
 const Accordion = ({ items, className = "space-y-5" }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
