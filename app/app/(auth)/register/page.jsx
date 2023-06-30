@@ -2,9 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
-import useDarkMode from "@/hooks/useDarkMode";
-import RegForm from "@/components/partials/auth/reg-from";
-import Social from "@/components/partials/auth/social";
+import useDarkMode from "../../../hooks/useDarkMode";
+import RegForm from "../../../components/partials/auth/reg-from";
+import Social from "../../../components/partials/auth/social";
 
 const Register = () => {
   const [isDark] = useDarkMode();
