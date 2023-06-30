@@ -1,8 +1,8 @@
 "use client";
-import Card from "@/components/ui/Card";
-import Dropdown from "@/components/ui/Dropdown";
-import Button from "@/components/ui/Button";
-import SplitDropdown from "@/components/ui/Split-dropdown";
+import Card from "../../../../components/ui/Card";
+import Dropdown from "../../../../components/ui/Dropdown";
+import Button from "../../../../components/ui/Button";
+import SplitDropdown from "../../../../components/ui/Split-dropdown";
 
 const DropdownPage = () => {
   return (

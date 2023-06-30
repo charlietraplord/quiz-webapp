@@ -1,7 +1,7 @@
 "use client";
 
-import Card from "@/components/ui/Card";
-import Alert from "@/components/ui/Alert";
+import Card from "../../../../components/ui/Card";
+import Alert from "../../../../components/ui/Alert";
 import Link from "next/link";
 
 const AlertPage = () => {

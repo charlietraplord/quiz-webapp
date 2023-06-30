@@ -1,7 +1,7 @@
 "use client";
-import Card from "@/components/ui/Card";
-import Button from "@/components/ui/Button";
-import Icon from "@/components/ui/Icon";
+import Card from "../../../../components/ui/Card";
+import Button from "../../../../components/ui/Button";
+import Icon from "../../../../components/ui/Icon";
 import Link from "next/link";
 
 const cardsColor1 = [

@@ -1,12 +1,12 @@
 "use client";
 
-import Card from "@/components/ui/Card";
-import ReLineChart from "@/components/partials/chart/recharts/ReLineChart";
-import ReAreaChart from "@/components/partials/chart/recharts/ReAreaChart";
-import ReBarChart from "@/components/partials/chart/recharts/ReBarChart";
-import ReScatterChart from "@/components/partials/chart/recharts/ScatterChart";
-import ReRadarChart from "@/components/partials/chart/recharts/ReRadarChart";
-import RePieChart from "@/components/partials/chart/recharts/RePieChart";
+import Card from "../../../../components/ui/Card";
+import ReLineChart from "../../../../components/partials/chart/recharts/ReLineChart";
+import ReAreaChart from "../../../../components/partials/chart/recharts/ReAreaChart";
+import ReBarChart from "../../../../components/partials/chart/recharts/ReBarChart";
+import ReScatterChart from "../../../../components/partials/chart/recharts/ScatterChart";
+import ReRadarChart from "../../../../components/partials/chart/recharts/ReRadarChart";
+import RePieChart from "../../../../components/partials/chart/recharts/RePieChart";
 
 const ChartJs = () => {
   return (

@@ -1,8 +1,8 @@
 "use client";
-import Card from "@/components/ui/Card";
-import Badge from "@/components/ui/Badge";
-import Button from "@/components/ui/Button";
-import Icon from "@/components/ui/Icon";
+import Card from "../../../../components/ui/Card";
+import Badge from "../../../../components/ui/Badge";
+import Button from "../../../../components/ui/Button";
+import Icon from "../../../../components/ui/Icon";
 
 const Badges = () => {
   return (

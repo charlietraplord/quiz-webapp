@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import Button from "@/components/ui/Button";
-import Card from "@/components/ui/Card";
-import Textinput from "@/components/ui/Textinput";
-import Textarea from "@/components/ui/Textarea";
-import Repeater from "@/components/partials/froms/Repeater";
+import Button from "../../../../components/ui/Button";
+import Card from "../../../../components/ui/Card";
+import Textinput from "../../../../components/ui/Textinput";
+import Textarea from "../../../../components/ui/Textarea";
+import Repeater from "../../../../components/partials/froms/Repeater";
 import Flatpickr from "react-flatpickr";
 
 const InvoiceAddPage = () => {

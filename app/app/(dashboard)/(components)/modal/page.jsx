@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import Card from "@/components/ui/Card";
-import Button from "@/components/ui/Button";
-import Modal from "@/components/ui/Modal";
-import Textinput from "@/components/ui/Textinput";
+import Card from "../../../../components/ui/Card";
+import Button from "../../../../components/ui/Button";
+import Modal from "../../../../components/ui/Modal";
+import Textinput from "../../../../components/ui/Textinput";
 
 const ModalPage = () => {
   return (

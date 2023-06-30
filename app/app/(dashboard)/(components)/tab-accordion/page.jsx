@@ -1,9 +1,9 @@
 "use client";
 import React, { Fragment } from "react";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
+import Card from "../../../../components/ui/Card";
+import Icon from "../../../../components/ui/Icon";
 import { Tab, Disclosure, Transition } from "@headlessui/react";
-import Accordion from "@/components/ui/Accordion";
+import Accordion from "../../../../components/ui/Accordion";
 const buttons = [
   {
     title: "Home",

@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import Card from "@/components/ui/Card";
-import Textinput from "@/components/ui/Textinput";
-import InputGroup from "@/components/ui/InputGroup";
+import Card from "../../../../components/ui/Card";
+import Textinput from "../../../../components/ui/Textinput";
+import InputGroup from "../../../../components/ui/InputGroup";
 
 const InputMask = () => {
   return (
@@ -14,11 +14,11 @@ const InputMask = () => {
             label="Credit Card"
             isMask
             options={{ creditCard: true }}
-            placeholder="0000 0000 0000 0000"
+            placeholder="000 000 0000"
           />
           <InputGroup
             label="Phone Number"
-            prepend="MY (+6)"
+            prepend="MY (+27)"
             placeholder="Phone Number"
             id="phoneNumber"
             options={{ phone: true, phoneRegionCode: "US" }}

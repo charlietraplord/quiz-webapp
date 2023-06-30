@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import Card from "@/components/ui/Card";
-import Textarea from "@/components/ui/Textarea";
+import Card from "../../../../components/ui/Card";
+import Textarea from "../../../../components/ui/Textarea";
 
 const Textareapage = () => {
   const errorMessage = {

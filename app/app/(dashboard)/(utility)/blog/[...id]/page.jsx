@@ -1,11 +1,11 @@
 "use client";
-import Card from "@/components/ui/Card";
-import Button from "@/components/ui/Button";
-import Textinput from "@/components/ui/Textinput";
-import Textarea from "@/components/ui/Textarea";
-import Icon from "@/components/ui/Icon";
+import Card from "../../../../../components/ui/Card";
+import Button from "../../../../../components/ui/Button";
+import Textinput from "../../../../../components/ui/Textinput";
+import Textarea from "../../../../../components/ui/Textarea";
+import Icon from "../../../../../components/ui/Icon";
 import Link from "next/link";
-import Sidebar from "@/components/partials/blog/Sidebar";
+import Sidebar from "../../../../../components/partials/blog/Sidebar";
 
 const tags = [
   {

@@ -1,6 +1,6 @@
 "use client";
-import ExampleOne from "@/components/partials/table/ExampleOne";
-import ExampleTwo from "@/components/partials/table/ExampleTwo";
+import ExampleOne from "../../../../components/partials/table/ExampleOne";
+import ExampleTwo from "../../../../components/partials/table/ExampleTwo";
 
 const TableAdvancedPage = () => {
   return (

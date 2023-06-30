@@ -1,15 +1,15 @@
 "use client";
 
-import Card from "@/components/ui/Card";
-import GroupChart5 from "@/components/partials/widget/chart/group-chart5";
-import GroupChart3 from "@/components/partials/widget/chart/group-chart-3";
-import GroupChart4 from "@/components/partials/widget/chart/group-chart-4";
-import GroupChart2 from "@/components/partials/widget/chart/group-chart-2";
-import GroupChart1 from "@/components/partials/widget/chart/group-chart-1";
-import DonutChart2 from "@/components/partials/widget/chart/dount-chart2";
-import OrderChart from "@/components/partials/widget/chart/order-chart";
-import ProfitChart from "@/components/partials/widget/chart/profit-chart";
-import EarningChart from "@/components/partials/widget/chart/earning-chart";
+import Card from "../../../../components/ui/Card";
+import GroupChart5 from "../../../../components/partials/widget/chart/group-chart5";
+import GroupChart3 from "../../../../components/partials/widget/chart/group-chart-3";
+import GroupChart4 from "../../../../components/partials/widget/chart/group-chart-4";
+import GroupChart2 from "../../../../components/partials/widget/chart/group-chart-2";
+import GroupChart1 from "../../../../components/partials/widget/chart/group-chart-1";
+import DonutChart2 from "../../../../components/partials/widget/chart/dount-chart2";
+import OrderChart from "../../../../components/partials/widget/chart/order-chart";
+import ProfitChart from "../../../../components/partials/widget/chart/profit-chart";
+import EarningChart from "../../../../components/partials/widget/chart/earning-chart";
 
 const StatisticWidget = () => {
   return (

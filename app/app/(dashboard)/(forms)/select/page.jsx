@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Card from "@/components/ui/Card";
-import Select from "@/components/ui/Select";
-import ReactSelect from "@/components/partials/froms/ReactSelect";
-import OptionsSelect from "@/components/partials/froms/Options";
+import Card from "../../../../components/ui/Card";
+import Select from "../../../../components/ui/Select";
+import ReactSelect from "../../../../components/partials/froms/ReactSelect";
+import OptionsSelect from "../../../../components/partials/froms/Options";
 
 const options = [
   {

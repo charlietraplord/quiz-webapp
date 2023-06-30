@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-import Card from "@/components/ui/Card";
-import Textinput from "@/components/ui/Textinput";
-import Textarea from "@/components/ui/Textarea";
-import Select from "@/components/ui/Select";
+import Card from "../../../../components/ui/Card";
+import Textinput from "../../../../components/ui/Textinput";
+import Textarea from "../../../../components/ui/Textarea";
+import Select from "../../../../components/ui/Select";
 
 const InputPage = () => {
   const errorMessage = {

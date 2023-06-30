@@ -1,6 +1,6 @@
 "use client";
-import VideoPlayer from "@/components/ui/VideoPlayer";
-import Card from "@/components/ui/Card";
+import VideoPlayer from "../../../../components/ui/VideoPlayer";
+import Card from "../../../../components/ui/Card";
 
 const VideoPage = () => {
   return (

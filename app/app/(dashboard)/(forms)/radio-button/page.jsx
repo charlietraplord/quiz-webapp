@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import Card from "@/components/ui/Card";
-import Radio from "@/components/ui/Radio";
+import Card from "../../../../components/ui/Card";
+import Radio from "../../../../components/ui/Radio";
 
 const RadioPage = () => {
   const [value, setValue] = useState("A");

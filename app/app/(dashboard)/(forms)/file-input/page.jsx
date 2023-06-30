@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import Card from "@/components/ui/Card";
-import Fileinput from "@/components/ui/Fileinput";
-import DropZone from "@/components/partials/froms/DropZone";
+import Card from "../../../../components/ui/Card";
+import Fileinput from "../../../../components/ui/Fileinput";
+import DropZone from "../../../../components/partials/froms/DropZone";
 
 const FileinputPage = () => {
   const [selectedFile, setSelectedFile] = useState(null);

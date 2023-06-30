@@ -1,8 +1,8 @@
 "use client";
-import ProgressBar from "@/components/ui/ProgressBar";
-import Bar from "@/components/ui/ProgressBar/Bar";
-import Card from "@/components/ui/Card";
-import Step from "@/components/partials/step";
+import ProgressBar from "../../../../components/ui/ProgressBar";
+import Bar from "../../../../components/ui/ProgressBar/Bar";
+import Card from "../../../../components/ui/Card";
+import Step from "../../../../components/partials/step";
 
 const ProgressbarPage = () => {
   return (

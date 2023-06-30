@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Card from "@/components/ui/Card";
-import Checkbox from "@/components/ui/Checkbox";
+import Card from "../../../../components/ui/Card";
+import Checkbox from "../../../../components/ui/Checkbox";
 
 const CheckboxPage = () => {
   const [checked, setChecked] = useState(false);

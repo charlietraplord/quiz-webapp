@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import Card from "@/components/ui/Card";
-import Simple from "@/components/partials/froms/Simple";
-import SimpleTooltip from "@/components/partials/froms/SimpleTooltip";
-import MultiValidation from "@/components/partials/froms/multiple-rules";
-import ValidationTypes from "@/components/partials/froms/validation-types";
+import Card from "../../../../components/ui/Card";
+import Simple from "../../../../components/partials/froms/Simple";
+import SimpleTooltip from "../../../../components/partials/froms/SimpleTooltip";
+import MultiValidation from "../../../../components/partials/froms/multiple-rules";
+import ValidationTypes from "../../../../components/partials/froms/validation-types";
 
 const FormValidation = () => {
   return (

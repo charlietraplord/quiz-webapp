@@ -1,6 +1,6 @@
 "use client";
-import Card from "@/components/ui/Card";
-import { tableData } from "@/constant/table-data";
+import Card from "../../../../components/ui/Card";
+import { tableData } from "../../../../constant/table-data";
 
 const columns = [
   {

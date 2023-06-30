@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Card from "@/components/ui/Card";
-import Pagination from "@/components/ui/Pagination";
+import Card from "../../../../components/ui/Card";
+import Pagination from "../../../../components/ui/Pagination";
 
 const PaginationPage = () => {
   const [currentPage, setCurrentPage] = useState(1);

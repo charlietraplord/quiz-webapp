@@ -1,9 +1,9 @@
 "use client";
 
-import Card from "@/components/ui/Card";
-import Textinput from "@/components/ui/Textinput";
-import Icon from "@/components/ui/Icon";
-import Button from "@/components/ui/Button";
+import Card from "../../../../components/ui/Card";
+import Textinput from "../../../../components/ui/Textinput";
+import Icon from "../../../../components/ui/Icon";
+import Button from "../../../../components/ui/Button";
 import { useForm, useFieldArray } from "react-hook-form";
 const FormRepeater = () => {
   const { register, control, handleSubmit, reset, trigger, setError } = useForm(
