@@ -7,7 +7,7 @@ import LogoWhite from "@/assets/images/logo/logo-white.svg";
 const MobileLogo = () => {
   const [isDark] = useDarkMode();
   return (
-    <Link href="/analytics">
+    <Link href="/app/banking">
       <img src={isDark ? LogoWhite : MainLogo} alt="" />
     </Link>
   );

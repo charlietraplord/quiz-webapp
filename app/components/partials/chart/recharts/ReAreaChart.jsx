@@ -9,8 +9,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import useDarkMode from "@/hooks/useDarkMode";
-import { colors } from "@/constant/data";
+import useDarkMode from "../../../../hooks/useDarkMode";
+import { colors } from "../../../../constant/data";
 
 const data = [
   {

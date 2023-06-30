@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import Textinput from "@/components/ui/Textinput";
+import Textinput from "../../../components/ui/Textinput";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useRouter } from "next/navigation";
-import Checkbox from "@/components/ui/Checkbox";
+import Checkbox from "../../../components/ui/Checkbox";
 import { useDispatch, useSelector } from "react-redux";
 import { handleRegister } from "./store";
 

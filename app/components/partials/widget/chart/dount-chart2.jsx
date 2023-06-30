@@ -1,7 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
-import useDarkMode from "@/hooks/useDarkMode";
+import useDarkMode from "../../../../hooks/useDarkMode";
 
 const DonutChart2 = ({ height = 200, colors = ["#0CE7FA", "#E2F6FD"] }) => {
   const [isDark] = useDarkMode();

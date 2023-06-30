@@ -1,5 +1,5 @@
 import React from "react";
-import Textinput from "@/components/ui/Textinput";
+import Textinput from "../../../components/ui/Textinput";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";

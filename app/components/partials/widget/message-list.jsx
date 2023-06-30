@@ -1,7 +1,7 @@
 import React from "react";
 
 import Link from "next/link";
-import { message } from "@/constant/data";
+import { message } from "../../../constant/data";
 
 const MessageList = () => {
   const newMessage = message.slice(0, 5);

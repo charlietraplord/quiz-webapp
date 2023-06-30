@@ -1,8 +1,8 @@
 import React from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
-import useDarkMode from "@/hooks/useDarkMode";
-import { colors } from "@/constant/data";
+import useDarkMode from "../../../../hooks/useDarkMode";
+import { colors } from "../../../../constant/data";
 
 const RePieChart = () => {
   const data = [

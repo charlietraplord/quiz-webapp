@@ -1,7 +1,7 @@
 import React from "react";
 import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
-import useDarkMode from "@/hooks/useDarkMode";
+import useDarkMode from "../../../../hooks/useDarkMode";
 
 const EarningChart = ({
   className = "bg-slate-50 dark:bg-slate-900 rounded py-3 px-4 md:col-span-2",

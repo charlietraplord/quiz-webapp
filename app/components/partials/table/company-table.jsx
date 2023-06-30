@@ -2,7 +2,7 @@
 import React, { useState, useMemo } from "react";
 import { homeTable } from "../../../constant/table-data";
 
-import Icon from "@/components/ui/Icon";
+import Icon from "../../../components/ui/Icon";
 
 import {
   useTable,

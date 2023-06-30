@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
-import InputGroup from "@/components/ui/InputGroup";
-import Button from "@/components/ui/Button";
-import Icon from "@/components/ui/Icon";
+import InputGroup from "../../../components/ui/InputGroup";
+import Button from "../../../components/ui/Button";
+import Icon from "../../../components/ui/Icon";
 
 const category = [
   {

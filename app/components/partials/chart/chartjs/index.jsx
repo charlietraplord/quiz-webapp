@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "@/components/ui/Card";
+import Card from "../../../../components/ui/Card";
 import BarChart from "./Bar";
 import HorizontalBar from "./HorizontalBar";
 import BarStacked from "./BarStacked";

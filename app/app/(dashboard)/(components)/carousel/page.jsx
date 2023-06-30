@@ -1,11 +1,11 @@
 "use client";
 import dynamic from "next/dynamic";
-const Carousel = dynamic(() => import("@/components/ui/Carousel"), {
+const Carousel = dynamic(() => import("../../../../components/ui/Carousel"), {
   ssr: false,
 });
 
 import { SwiperSlide } from "swiper/react";
-import Card from "@/components/ui/Card";
+import Card from "../../../../components/ui/Card";
 
 const carousel = () => {
   return (

@@ -1,9 +1,9 @@
 import React, { useState, useMemo, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
-import Dropdown from "@/components/ui/Dropdown";
-import ProgressBar from "@/components/ui/ProgressBar";
+import Card from "../../../../components/ui/Card";
+import Icon from "../../../../components/ui/Icon";
+import Dropdown from "../../../../components/ui/Dropdown";
+import ProgressBar from "../../../../components/ui/ProgressBar";
 import { Menu } from "@headlessui/react";
 import { removeProject, updateProject } from "./store";
 import { useRouter } from "next/navigation";

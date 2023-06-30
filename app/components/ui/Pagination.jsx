@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../components/ui/Icon";
 
 const Pagination = ({
   totalPages,

@@ -1,16 +1,16 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
-import GroupChart4 from "@/components/partials/widget/chart/group-chart-4";
-import DonutChart from "@/components/partials/widget/chart/donut-chart";
-import { meets, files } from "@/constant/data";
-import SelectMonth from "@/components/partials/SelectMonth";
-import TaskLists from "@/components/partials/widget/task-list";
-import MessageList from "@/components/partials/widget/message-list";
-import TrackingParcel from "@/components/partials/widget/activity";
-import TeamTable from "@/components/partials/table/team-table";
-import CalendarView from "@/components/partials/widget/CalendarView";
+import Card from "../../../../components/ui/Card";
+import Icon from "../../../../components/ui/Icon";
+import GroupChart4 from "../../../../components/partials/widget/chart/group-chart-4";
+import DonutChart from "../../../../components/partials/widget/chart/donut-chart";
+import { meets, files } from "../../../../constant/data";
+import SelectMonth from "../../../../components/partials/SelectMonth";
+import TaskLists from "../../../../components/partials/widget/task-list";
+import MessageList from "../../../../components/partials/widget/message-list";
+import TrackingParcel from "../../../../components/partials/widget/activity";
+import TeamTable from "../../../../components/partials/table/team-table";
+import CalendarView from "../../../../components/partials/widget/CalendarView";
 const ProjectDetailsPage = () => {
   const { id } = useParams();
 

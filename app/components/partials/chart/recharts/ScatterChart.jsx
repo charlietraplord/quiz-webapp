@@ -8,8 +8,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import useDarkMode from "@/hooks/useDarkMode";
-import { colors } from "@/constant/data";
+import useDarkMode from "../../../../hooks/useDarkMode";
+import { colors } from "../../../../constant/data";
 
 const angularData = [
   { x: 5.4, y: 170 },

@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
-import useDarkMode from "@/hooks/useDarkMode";
+import useDarkMode from "../../../../hooks/useDarkMode";
 
 const AreaSpaLine = () => {
   const [isDark] = useDarkMode();

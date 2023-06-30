@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Checkbox from "@/components/ui/Checkbox";
-import Icon from "@/components/ui/Icon";
+import Checkbox from "../../../components/ui/Checkbox";
+import Icon from "../../../components/ui/Icon";
 
 const TaskLists = () => {
   const [lists, setLists] = useState([

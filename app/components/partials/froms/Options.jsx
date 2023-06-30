@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Select, { components } from "react-select";
 import makeAnimated from "react-select/animated";
-import Icon from "@/components/ui/Icon";
+import Icon from "../../../components/ui/Icon";
 
 const fruits = [
   { value: "chocolate", label: "Chocolate" },

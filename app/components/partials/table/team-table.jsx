@@ -1,12 +1,12 @@
 import React, { useState, useMemo } from "react";
 import { teamData } from "../../../constant/table-data";
 import { v4 as uuidv4 } from "uuid";
-import Icon from "@/components/ui/Icon";
-import Dropdown from "@/components/ui/Dropdown";
+import Icon from "../../../components/ui/Icon";
+import Dropdown from "../../../components/ui/Dropdown";
 import { Menu } from "@headlessui/react";
 import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
-import { colors } from "@/constant/data";
+import { colors } from "../../../constant/data";
 
 import {
   useTable,

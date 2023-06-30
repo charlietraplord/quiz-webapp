@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "@/components/ui/Card";
-import Icon from "@/components/ui/Icon";
+import Card from "../../../../components/ui/Card";
+import Icon from "../../../../components/ui/Icon";
 import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
