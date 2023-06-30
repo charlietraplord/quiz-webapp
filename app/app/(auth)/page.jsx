@@ -3,7 +3,7 @@ import Link from "next/link";
 import LoginForm    from "../../components/partials/auth/login-form";
 import Social from "../../components/partials/auth/social.jsx";
 import useDarkMode from "../../hooks/useDarkMode.js";
-import Hero from "@/public/1.png"
+import Hero from "../../../public/1.png"
 
 // image import
 
@@ -35,9 +35,9 @@ const Login = () => {
             </div>
             <div className="absolute left-0 2xl:bottom-[-160px] bottom-[-130px] h-full w-full z-[-1]">
               <img
-                src="https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://img.freepik.com/free-vector/team-concept-illustration_114360-2527.jpg?w=1380&t=st=1688156719~exp=1688157319~hmac=f4b984cd64b2ec334f0784b2ddb032263f7a035c216565e1cfb1339546b31ebf"
                 alt=""
-                className="h-full w-full object-contain"
+                className="h-100 w-full object-contain"
               />
             </div>
           </div>
@@ -49,10 +49,10 @@ const Login = () => {
                     <img
                       src={
                         isDark
-                          ? "/assets/images/logo/logo-white.svg"
-                          : "/assets/images/logo/logo.svg"
+                          ? "../../../public/anisa-white.png"
+                          : "../../../public/anisa-black.png"
                       }
-                      alt=""
+                      alt="Anisa"
                       className="mx-auto"
                     />
                   </Link>

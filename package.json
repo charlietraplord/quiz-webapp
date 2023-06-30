@@ -53,6 +53,7 @@
     "react-transition-group": "^4.4.5",
     "recharts": "^2.7.2",
     "sass": "^1.63.6",
+    "sharp": "^0.32.1",
     "simplebar-react": "^3.2.4",
     "sort-by": "^1.2.0",
     "swiper": "^9.4.1",
