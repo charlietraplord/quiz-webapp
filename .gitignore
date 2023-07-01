@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+#custom
+/app/common/
+
 # production
 /build
 

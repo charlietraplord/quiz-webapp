@@ -1,9 +1,9 @@
 "use client";
 import Link from "next/link";
-import LoginForm    from "../../components/partials/auth/login-form";
+import LoginForm from "../../components/partials/auth/login-form";
 import Social from "../../components/partials/auth/social.jsx";
 import useDarkMode from "../../hooks/useDarkMode.js";
-import Hero from "../../../public/1.png"
+import Hero from "../../../public/1.png";
 
 // image import
 

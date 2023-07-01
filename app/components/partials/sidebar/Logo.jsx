@@ -25,7 +25,7 @@ const SidebarLogo = ({ menuHover }) => {
       
       `}
     >
-      <Link href="/analytics">
+      <Link href="/app/banking">
         <div className="flex items-center space-x-4">
           <div className="logo-icon">
             {!isDark && !isSemiDark ? (

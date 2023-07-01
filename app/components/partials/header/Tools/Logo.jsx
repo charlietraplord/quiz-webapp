@@ -11,7 +11,7 @@ const Logo = () => {
 
   return (
     <div>
-      <Link href="/analytics">
+      <Link href="/app/banking">
         <React.Fragment>
           {width >= breakpoints.xl ? (
             <img

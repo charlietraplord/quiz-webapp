@@ -38,7 +38,7 @@ const Header = () => {
                 {links.map(link => (
                     <Link className={styles.link} key={link.id} href={link.url}>{link.title}</Link>
                 ))}
-                <button className={styles.logout} onClick={() => console.log("Logged out")}>Logout</button>
+                {/* <button className={styles.logout} onClick={() => console.log("Logged out")}>Logout</button> */}
             </div>
         </div>
     );
