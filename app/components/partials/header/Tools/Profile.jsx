@@ -5,15 +5,19 @@ import { Menu, Transition } from "@headlessui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { handleLogout } from "../../../../components/partials/auth/store";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
+import userimg from "@/public/user.png";
 
 const ProfileLabel = () => {
   return (
     <div className="flex items-center">
       <div className="flex-1 ltr:mr-[10px] rtl:ml-[10px]">
         <div className="lg:h-8 lg:w-8 h-7 w-7 rounded-full">
-          <img
-            src="/assets/images/all-img/user.png"
+          <Image
+            src={userimg}
             alt=""
+            width={2}
+            height={2}
             className="block w-full h-full object-cover rounded-full"
           />
         </div>

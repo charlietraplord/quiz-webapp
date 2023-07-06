@@ -2,9 +2,12 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import useDarkMode from "../../../hooks/useDarkMode";
 import RegForm from "../../../components/partials/auth/reg-from";
 import Social from "../../../components/partials/auth/social";
+import LoginHero from "../../../../public/login.png"
+
 
 const Register = () => {
   const [isDark] = useDarkMode();
@@ -34,8 +37,8 @@ const Register = () => {
               </h4>
             </div>
             <div className="absolute left-0 bottom-[-130px] h-full w-full z-[-1]">
-              <img
-                src="/assets/images/auth/ils1.svg"
+              <Image
+                src={LoginHero}
                 alt=""
                 className="h-full w-full object-contain"
               />
@@ -92,5 +95,4 @@ const Register = () => {
     </>
   );
 };
-
 export default Register;

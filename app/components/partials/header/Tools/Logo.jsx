@@ -4,6 +4,8 @@ import React, { Fragment } from "react";
 import useDarkMode from "../../../../hooks/useDarkMode";
 import Link from "next/link";
 import useWidth from "../../../../hooks/useWidth";
+import lightlogo from "../../../../../public/anisa-white.png"
+import darklogo from "../../../../../public/anisa-black.png"
 
 const Logo = () => {
   const [isDark] = useDarkMode();
@@ -17,8 +19,8 @@ const Logo = () => {
             <img
               src={
                 isDark
-                  ? "/assets/images/logo/logo-white.svg"
-                  : "/assets/images/logo/logo.svg"
+                  ? lightlogo
+                  : darklogo
               }
               alt=""
             />
@@ -26,8 +28,8 @@ const Logo = () => {
             <img
               src={
                 isDark
-                  ? "/assets/images/logo/logo-c-white.svg"
-                  : "/assets/images/logo/logo-c.svg"
+                  ? lightlogo
+                  : darklogo
               }
               alt=""
             />

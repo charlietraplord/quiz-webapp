@@ -6,7 +6,9 @@ const nextConfig = {
             "cdn.iconscout.com",
             "img.freepik.com",
             "lottie.host",
-            "via.placeholder.com"
+            "via.placeholder.com",
+            "icons8.com", 
+            "img.icons8.com"
         ]
     },
 

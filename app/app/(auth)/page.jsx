@@ -1,14 +1,26 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import { useSession, signIn, signOut } from "next-auth/react";
 import LoginForm from "../../components/partials/auth/login-form";
 import Social from "../../components/partials/auth/social.jsx";
 import useDarkMode from "../../hooks/useDarkMode.js";
-import Hero from "../../../public/1.png";
+import logolight from "../../../public/anisa-white.png";
+import logodark from "../../../public/anisa-black.png";
+import LoginHero from "../../../public/login.png"
+import { useRouter } from "next/navigation";
 
 // image import
 
 const Login = () => {
   const [isDark] = useDarkMode();
+  const { data, status } = useSession();
+  const router = useRouter();
+
+  if (status === "authenticated") {
+    router.push('/app/dashboard/');
+  }
+  else{
   return (
     <>
       <div className="loginwrapper">
@@ -19,9 +31,11 @@ const Login = () => {
                 <img
                   src={
                     isDark
-                      ? "/assets/images/logo/logo-white.svg"
-                      : "/assets/images/logo/logo.svg"
+                      ? (logolight)
+                      : (logodark)
                   }
+                  width={10}
+                  height={10}
                   alt=""
                   className="mb-10"
                 />
@@ -34,10 +48,10 @@ const Login = () => {
               </h4>
             </div>
             <div className="absolute left-0 2xl:bottom-[-160px] bottom-[-130px] h-full w-full z-[-1]">
-              <img
-                src="https://img.freepik.com/free-vector/team-concept-illustration_114360-2527.jpg?w=1380&t=st=1688156719~exp=1688157319~hmac=f4b984cd64b2ec334f0784b2ddb032263f7a035c216565e1cfb1339546b31ebf"
+              <Image
+                src={LoginHero}
                 alt=""
-                className="h-100 w-full object-contain"
+                className="h-90 w-full object-contain"
               />
             </div>
           </div>
@@ -75,7 +89,7 @@ const Login = () => {
                 <div className="md:max-w-[345px] mx-auto font-normal text-slate-500 dark:text-slate-400 mt-12 uppercase text-sm">
                   Don’t have an account?{" "}
                   <Link
-                    href="/register"
+                    href="/app/register"
                     className="text-slate-900 dark:text-white font-medium hover:underline"
                   >
                     Sign up
@@ -92,5 +106,6 @@ const Login = () => {
     </>
   );
 };
+}
 
 export default Login;
